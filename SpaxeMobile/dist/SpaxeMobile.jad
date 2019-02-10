@@ -1,0 +1,8 @@
+MIDlet-1: Main, , laxe.Main
+MIDlet-Jar-Size: 65685
+MIDlet-Jar-URL: SpaxeMobile.jar
+MIDlet-Name: SpaxeMobile
+MIDlet-Vendor: Vendor
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.1

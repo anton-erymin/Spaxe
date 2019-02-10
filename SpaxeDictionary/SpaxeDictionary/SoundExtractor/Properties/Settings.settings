@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SoundExtractor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SoundPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Documents and Settings\All Users\Application Data\ABBYY\Lingvo\x3\Sound\</Value>
+    </Setting>
+    <Setting Name="DictionaryPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Documents and Settings\erymin\Local Settings\Application Data\ABBYY\Tutor\14.0\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

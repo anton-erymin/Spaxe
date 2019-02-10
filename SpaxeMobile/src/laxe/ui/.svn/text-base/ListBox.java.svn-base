@@ -1,0 +1,139 @@
+package laxe.ui;
+
+import java.util.Vector;
+import javax.microedition.lcdui.Graphics;
+
+
+public class ListBox extends Control
+{
+    public Vector items;
+    
+    public int selectedIndex;
+    public int selectedPosition;
+    public int selectedColor;
+
+    public int countVisible;
+    public int startIndex;
+
+    private float k;
+    private int scrollLen;
+
+
+    public ListBox()
+    {
+        items = new Vector();
+        selectedIndex = 0;
+        selectedColor = 0xd2d2c8;
+        startIndex = 0;
+        countVisible = 0;
+        selectedPosition = 0;
+
+        k = 0.0f;
+        scrollLen = 0;
+    }
+
+
+    public void addItem(String item)
+    {
+        items.addElement(item);
+        
+        k = (float)countVisible / (float)items.size();
+        scrollLen = (int)(k*height);
+    }
+
+
+    protected void paint(Graphics g)
+    {
+        super.paint(g);
+
+        int padding = 2;
+        int posx = left + padding;
+        int posy = top + padding;
+        int fonth = this.font.getHeight();
+
+        g.setColor(borderColor);
+        for (int i = 0; i < countVisible; i++)
+        {
+            if (i > items.size() - 1) break;
+
+            if (startIndex + i == selectedIndex)
+            {
+                g.setColor(selectedColor);
+                g.fillRect(posx, posy, width - 2*padding - 6, fonth);
+                g.setColor(bgColor);
+                g.drawString((String)items.elementAt(startIndex + i), posx, posy, Graphics.LEFT | Graphics.TOP);
+            }
+
+            g.setColor(borderColor);
+            g.drawString((String)items.elementAt(startIndex + i), posx, posy, Graphics.LEFT | Graphics.TOP);
+            posy += fonth;
+        }
+
+        // Рисуем полосу прокрутки
+        if (countVisible < items.size())
+        {
+            int offset = (int)((float)(height - scrollLen)*(float)startIndex/(float)(items.size() - countVisible));
+
+            g.drawLine(right - 6, top, right - 6, bottom);
+            g.fillRect(right - 6, top + offset, 6, scrollLen);
+        }
+    }
+
+    protected void keyPressed(int key)
+    {
+        switch (key)
+        {
+            case Keys.KEYDOWN:
+            {
+                if (selectedIndex < items.size() - 1)
+                {
+                    selectedIndex++;
+                    if (selectedPosition == countVisible - 1)
+                        startIndex++;
+                    else selectedPosition++;
+
+                    form.repaint(left, top, width, height);
+                }
+                
+                break;
+            }
+            case Keys.KEYUP:
+            {
+                if (selectedIndex > 0)
+                {
+                    selectedIndex--;
+                    if (selectedPosition == 0)
+                        startIndex--;
+                    else selectedPosition--;
+
+                    form.repaint(left, top, width, height);
+                }
+
+                break;
+            }
+        }
+    }
+
+
+    protected void keyReleased(int key)
+    {
+    }
+
+
+    public void setHeight(int height)
+    {
+        super.setHeight(height);
+
+        int padding = 2;
+        int posy = top + padding;
+        int fonth = this.font.getHeight();
+
+        int i = 0;
+        while (posy + fonth + padding <= bottom)
+        {
+            posy += fonth;
+            i++;
+        }
+        countVisible = i;
+    }
+}

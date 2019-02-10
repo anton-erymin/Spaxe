@@ -1,0 +1,43 @@
+﻿Существительные (sust)
+m - мужской род
+f - женский род
+s - единственное число
+pl - множественное число
+od - одушевленное
+nod - неодушевленное
+count - исчисляемое
+uncount - неисчисляемое
+
+Глагол (verb)
+conj:(1|2|3) - спряжение
+gr:(R|1|2|3|4|5|6|7|8|9|I) - группа глагола
+vt - переходный
+vi - непереходный
+vr - может быть возвратным
+ind - изъявительное наклонение
+cond - условное наклонение
+subj - сослагательное наклонение
+imp - повелительное наклонение
+
+pres - presente
+
+imperf - pretérito imperfecto
+perf - pretérito perfecto
+
+indef - pretérito indefinido
+
+fimperf - futuro imprefecto
+fperf - futuro perfecto
+
+cimperf -  condicional imprefecto
+cperf - condicional perfecto
+
+plus - pretérito pluscuamperfecto
+ant - pretérito anterior
+
+1st - 1-е лицо
+2nd - 2-е лицо 
+3rd - 3-е лицо
+
+s - единственное число
+pl - множественное число

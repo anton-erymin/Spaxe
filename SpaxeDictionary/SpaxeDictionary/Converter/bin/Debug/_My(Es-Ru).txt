@@ -1,0 +1,318 @@
+aún más					более того
+pues sí					ну да
+duda			dicSp796.wav	SoundEs	сомнение, колебание
+dudar			dicSp6478.wav	SoundEs	быть неуверенным, сомневаться
+impresionante		dicSp2881.wav	SoundEs	впечатляющий
+efectivamente		dicSp2107.wav	SoundEs	действительно, в самом деле
+joya			dicSp6992.wav	SoundEs	драгоценность, ювелирное изделие
+espiar					шпионить, выслеживать
+inspección		dicSp2627.wav	SoundEs	инспекция
+fiscal			dicSp1128.wav	SoundEs	финансовый, налоговый
+factura			dicSp3223.wav	SoundEs	счёт (на посылаемые товары)
+faltar			dicSp6681.wav	SoundEs	отсутствовать
+amante			dicSp4277.wav	SoundEs	любовник, любовница
+reír			dicSp6232.wav	SoundEs	смеяться
+despacho		dicSp2810.wav	SoundEs	кабинет
+soportar		dicSp3737.wav	SoundEs	терпеть, выносить, переносить
+impuesto		dicSp1765.wav	SoundEs	налог, подать
+raro			dicSp3049.wav	SoundEs	необычный, странный
+creer			dicSp2240.wav	SoundEs	верить, полагать, считать, думать
+crear			dicSp344.wav	SoundEs	создавать, созидать
+enamorarse				влюбляться (в кого-либо)
+gordo			dicSp5568.wav	SoundEs	толстый, упитанный
+calvo			dicSp3542.wav	SoundEs	лысый, плешивый
+éxito			dicSp602.wav	SoundEs	результат, исход
+acordarse		dicSp9452.wav	SoundEs	(de) помнить
+colegio			dicSp1144.wav	SoundEs	колледж
+descubrir		dicSp2003.wav	SoundEs	открывать, раскрывать
+amistad			dicSp1483.wav	SoundEs	дружба, привязанность
+vuelo			dicSp2214.wav	SoundEs	рейс (самолёта)
+triste			dicSp2500.wav	SoundEs	печальный, грустный
+recoger			dicSp2738.wav	SoundEs	собирать, набирать
+volver			dicSp208.wav	SoundEs	возвращаться
+confiar			dicSp4881.wav	SoundEs	доверять, оказывать доверие
+broma			dicSp5160.wav	SoundEs	шутка, острота
+ejecutivo		dicSp909.wav	SoundEs	старательный, исполнительный
+facturar				сдавать в багаж
+azafata			dicSp5107.wav	SoundEs	стюардесса
+lo siento				извините!
+huelga			dicSp3143.wav	SoundEs	стачка, забастовка
+controlador				диспетчер
+sentar			dicSp6790.wav	SoundEs	сажать, усаживать
+nórdico					скандинав, скандинавка
+maduro			dicSp7189.wav	SoundEs	зрелый, взрослый
+atractivo		dicSp2900.wav	SoundEs	привлекательный, обаятельный
+observar		dicSp1776.wav	SoundEs	наблюдать, вести наблюдение
+increíble		dicSp3280.wav	SoundEs	невероятный, немыслимый, невообразимый
+asiento			dicSp4180.wav	SoundEs	сиденье, место
+trasladar		dicSp5264.wav	SoundEs	перемещать, передвигать
+amable			dicSp4068.wav	SoundEs	любезный, приветливый
+psicólogo		dicSp6049.wav	SoundEs	психолог
+holandés		dicSp4584.wav	SoundEs	голландец, голландка
+acordar			dicSp5053.wav	SoundEs	решать, принимать решение
+cómo te va				как дела?
+danés			dicSp7462.wav	SoundEs	датчанин, датчанка
+español			dicSp35.wav	SoundEs	испанец, испанка
+inglés			dicSp167.wav	SoundEs	англичанин, англичанка
+avión			dicSp2572.wav	SoundEs	самолёт
+Mediterráneo		dicSp2798.wav	SoundEs	Средиземное море
+costa			dicSp387.wav	SoundEs	берег, побережье (моря)
+especialmente		dicSp560.wav	SoundEs	особенно, в особенности, прежде всего
+sueco			dicSp2999.wav	SoundEs	швед, шведка
+noruego			dicSp5140.wav	SoundEs	норвежец, норвежка
+preocupar				заботить, беспокоить, тревожить, поглощать
+destino			dicSp870.wav	SoundEs	место назначения
+mostrador		dicSp4676.wav	SoundEs	циферблат
+sorpresa		dicSp1258.wav	SoundEs	неожиданность, сюрприз
+agradable		dicSp2907.wav	SoundEs	приятный
+seguro			dicSp507.wav	SoundEs	уверенный, твёрдый
+bajar			dicSp1573.wav	SoundEs	спускаться, сходить вниз
+subir			dicSp222.wav	SoundEs	подниматься, перемещаться вверх, восходить
+al lado					рядом
+lado			dicSp527.wav	SoundEs	бок, сторона (чего-либо)
+Suecia			dicSp565.wav	SoundEs	Швеция
+chileno			dicSp2588.wav	SoundEs	чилиец, чилийка
+situación		dicSp82.wav	SoundEs	положение, обстановка, ситуация
+culto			dicSp3528.wav	SoundEs	образованный, культурный, просвещённый
+profundo		dicSp2066.wav	SoundEs	глубокий
+soltero			dicSp5100.wav	SoundEs	холостой, неженатый
+divorciar				расторгать брак, разводить
+paisaje			dicSp2713.wav	SoundEs	пейзаж, вид
+variar			dicSp3377.wav	SoundEs	менять, изменять
+variado					разнообразный, различный
+preocupación		dicSp1640.wav	SoundEs	озабоченность, беспокойство
+solución		dicSp704.wav	SoundEs	решение, разрешение
+gana			dicSp1405.wav	SoundEs	желание, охота
+paseo			dicSp1867.wav	SoundEs	прогулка
+antes			dicSp158.wav	SoundEs	раньше, прежде
+sorprenderse				удивиться, поразиться
+taxi			dicSp5049.wav	SoundEs	такси, таксомотор
+parada			dicSp3373.wav	SoundEs	остановка, стоянка
+lento			dicSp3017.wav	SoundEs	медленный, неторопливый
+quizá			dicSp2035.wav	SoundEs	возможно, пожалуй, может быть
+tontería		dicSp8022.wav	SoundEs	глупость, дурость
+frente			dicSp423.wav	SoundEs	лицо
+frente a				перед
+caro			dicSp2573.wav	SoundEs	дорогой, дорогостоящий
+catedral		dicSp3431.wav	SoundEs	(кафедральный) собор, церковь
+vista			dicSp417.wav	SoundEs	вид, панорама
+darse			dicSp1774.wav	SoundEs	отдаваться, предаваться (делу, занятию)
+baño			dicSp2063.wav	SoundEs	ванна
+mejor dicho				вернее говоря, лучше сказать
+pintarse				краситься
+engordar				толстеть, жиреть
+frito			dicSp9431.wav	SoundEs	жареный
+de pronto				внезапно, вдруг
+casualidad		dicSp4134.wav	SoundEs	случайность
+camarero		dicSp7890.wav	SoundEs	слуга, лакей, официант, дворецкий
+tímido			dicSp8644.wav	SoundEs	робкий, застенчивый
+sitio			dicSp14.wav	SoundEs	место, пункт, точка
+curioso			dicSp2878.wav	SoundEs	любопытный
+moreno			dicSp1777.wav	SoundEs	смуглый, брюнет
+marisco			dicSp8583.wav	SoundEs	морская ракушка (съедобная)
+soltar			dicSp6056.wav	SoundEs	освобождать, выпускать на свободу
+gamba					креветка (разновидность)
+pollo			dicSp4127.wav	SoundEs	птенец
+langosta				лангуст, лангуста
+probar			dicSp2203.wav	SoundEs	испытывать, проверять
+fresco			dicSp3853.wav	SoundEs	свежий, прохладный
+callar			dicSp5945.wav	SoundEs	молчать, хранить молчание
+contar			dicSp924.wav	SoundEs	рассказывать, повествовать
+cuento			dicSp2094.wav	SoundEs	рассказ
+cantar			dicSp3955.wav	SoundEs	петь, напевать
+canta			dicSp4555.wav	SoundEs	песня
+canción			dicSp2085.wav	SoundEs	песня
+jubilarse				уходить на пенсию, выходить в отставку
+precioso		dicSp4680.wav	SoundEs	ценный
+venta			dicSp548.wav	SoundEs	продажа
+respuesta		dicSp484.wav	SoundEs	ответ
+precio			dicSp276.wav	SoundEs	цена
+negocio			dicSp816.wav	SoundEs	коммерция, торговля, доходное дело
+organizar		dicSp1706.wav	SoundEs	организовывать, объединять
+cita			dicSp1378.wav	SoundEs	свидание
+finca			dicSp3834.wav	SoundEs	недвижимая собственность, владение
+apartado		dicSp1298.wav	SoundEs	дальний, удалённый, расположенный в стороне
+brava					вымогательство, угроза
+bravo			dicSp2781.wav	SoundEs	смелый, отважный
+gerente			dicSp2339.wav	SoundEs	управляющий, заведующий
+notario			dicSp5537.wav	SoundEs	нотариус
+firmar			dicSp2703.wav	SoundEs	подписывать
+decidir			dicSp1863.wav	SoundEs	решать, разрешать
+existir			dicSp2115.wav	SoundEs	существовать, быть
+falso			dicSp3202.wav	SoundEs	ложный, притворный, напускной
+ahorrar			dicSp3837.wav	SoundEs	сберегать, экономить, копить
+ahorro			dicSp2001.wav	SoundEs	сбережение, экономия
+terrible		dicSp3316.wav	SoundEs	страшный, ужасный
+encontrar		dicSp431.wav	SoundEs	находить, обнаруживать
+solo			dicSp241.wav	SoundEs	один, единственный
+excusa			dicSp4301.wav	SoundEs	извинение, оправдание
+alemán			dicSp1124.wav	SoundEs	немец, немка
+tarjeta			dicSp1067.wav	SoundEs	визитная карточка
+alquilar		dicSp3386.wav	SoundEs	брать внаём (напрокат), снимать
+parte			dicSp65.wav	SoundEs	часть
+bahía			dicSp3288.wav	SoundEs	бухта, залив, губа
+muralla			dicSp5901.wav	SoundEs	крепостная стена
+piedra			dicSp1967.wav	SoundEs	камень
+contento		dicSp4115.wav	SoundEs	довольный, удовлетворённый
+enseguida		dicSp4814.wav	SoundEs	немедленно, тотчас, сейчас же
+estafar					мошенничать
+pobre			dicSp1944.wav	SoundEs	несчастный, несчастливый, жалкий, бедный
+reacción		dicSp2346.wav	SoundEs	реакция
+etcétera		dicSp4139.wav	SoundEs	и так далее
+inmobiliario		dicSp3328.wav	SoundEs	недвижимый (об имуществе)
+mundo			dicSp49.wav	SoundEs	мир, вселенная, космос
+pianista		dicSp7604.wav	SoundEs	пианист, пианистка
+tocar			dicSp2976.wav	SoundEs	играть (на инструменте)
+dossier					досье
+enfadar					сердить, раздражать
+irónico			dicSp9267.wav	SoundEs	иронический, ироничный
+cuenta			dicSp96.wav	SoundEs	счёт (в банке)
+fuerte			dicSp829.wav	SoundEs	сильный
+delicioso		dicSp7671.wav	SoundEs	восхитительный, прелестный
+final			dicSp262.wav	SoundEs	конечный, окончательный, заключительный
+bañador					купальный костюм, купальник
+crema			dicSp4737.wav	SoundEs	крем, мазь (косметическое средство)
+contrato		dicSp1214.wav	SoundEs	контракт, договор, соглашение
+mandar			dicSp3046.wav	SoundEs	посылать, отправлять
+a ver					так, посмотрим
+terraza			dicSp4030.wav	SoundEs	терраса, веранда
+mercado			dicSp302.wav	SoundEs	рынок, базар
+verdura					(свежая) зелень (идущая в пищу)
+pescado			dicSp3857.wav	SoundEs	рыба (пища)
+naturalmente				непринуждённо, просто, без стеснения
+cortar			dicSp4117.wav	SoundEs	прекращать, прерывать (чтение, разговор )
+paella					паэлья (блюдо из риса с овощами, мясом и рыбой)
+vender			dicSp1260.wav	SoundEs	продавать
+a lo mejor		dicSp5103.wav	SoundEs	возможно, пожалуй
+escandinavo				скандинавский
+invertir		dicSp2522.wav	SoundEs	переставлять
+contacto		dicSp72.wav	SoundEs	контакт
+ponerse			dicSp2124.wav	SoundEs	(con) связываться (с кем-либо)
+abogado			dicSp2218.wav	SoundEs	адвокат, защитник
+vanguardia		dicSp2667.wav	SoundEs	передовой (головной) отряд, авангард
+fabricar		dicSp5759.wav	SoundEs	производить, изготовлять
+chocolate		dicSp3789.wav	SoundEs	шоколад
+empresa			dicSp185.wav	SoundEs	предприятие, завод, фабрика
+espionaje		dicSp4697.wav	SoundEs	шпионаж, агентурная разведка
+industrial		dicSp740.wav	SoundEs	промышленный, индустриальный
+copiar			dicSp2986.wav	SoundEs	копировать, подражать
+receta			dicSp3651.wav	SoundEs	рецепт
+bombón					конфета, карамель (с ликёром), шоколадная конфета
+licor			dicSp7840.wav	SoundEs	ликёр
+par			dicSp1053.wav	SoundEs	пара
+especialidad		dicSp2125.wav	SoundEs	фирменное блюдо
+copa			dicSp1290.wav	SoundEs	бокал, кубок
+recordar		dicSp1104.wav	SoundEs	вспоминать
+reunión			dicSp659.wav	SoundEs	собрание
+manifestación		dicSp2432.wav	SoundEs	манифестация, демонстрация
+a veces					иногда, иной раз
+hacerse			dicSp1371.wav	SoundEs	становиться, делаться
+pescar			dicSp6298.wav	SoundEs	ловить, удить (рыбу)
+adulto			dicSp2915.wav	SoundEs	взрослый, совершеннолетний
+graduado		dicSp5569.wav	SoundEs	имеющий высшее образование (учёную степень), закончивший университет
+nivel			dicSp194.wav	SoundEs	высота, уровень
+especial		dicSp231.wav	SoundEs	особенный
+petardo					детонатор, подрывная шашка
+quemar			dicSp7010.wav	SoundEs	жечь, сжигать
+madera			dicSp1624.wav	SoundEs	древесина
+fuego			dicSp1341.wav	SoundEs	огонь, пламя
+valer			dicSp7017.wav	SoundEs	стоить, иметь цену
+preferir				превосходить, иметь преимущество
+anticuario				антиквар
+correr			dicSp2896.wav	SoundEs	бегать
+explicación		dicSp2081.wav	SoundEs	объяснение, оправдание
+mágico			dicSp3532.wav	SoundEs	магический, волшебный, чудодейственный
+excitar					возбуждать
+cámara cinematográfica				кинокамера
+cámara tomavistas				кинокамера, киносъёмочная камера
+cámara fotográfica				фотоаппарат
+seguramente		dicSp2118.wav	SoundEs	уверенно, твёрдо
+pronto			dicSp1023.wav	SoundEs	скоро, быстро, незамедлительно
+visitar			dicSp855.wav	SoundEs	посещать, навещать, бывать
+escalera		dicSp5715.wav	SoundEs	лестница
+esconderse				спрятаться, укрыться
+llave			dicSp3353.wav	SoundEs	ключ
+bastante		dicSp907.wav	SoundEs	довольно, достаточно
+pasaporte		dicSp3693.wav	SoundEs	паспорт
+diferente		dicSp1042.wav	SoundEs	различный, отличный
+siempre			dicSp36.wav	SoundEs	в любом случае
+cajón			dicSp5944.wav	SoundEs	выдвижной ящик (у мебели)
+pistola			dicSp6702.wav	SoundEs	пистолет
+cocaína			dicSp5655.wav	SoundEs	кокаин
+peligroso		dicSp3266.wav	SoundEs	опасный, рискованный
+oírse					слышаться
+detrás			dicSp1714.wav	SoundEs	сзади, позади
+cuero			dicSp3711.wav	SoundEs	кожа (выделанная)
+japonés			dicSp2906.wav	SoundEs	японец, японка
+noticia			dicSp603.wav	SoundEs	сведение, сообщение, известие
+nota			dicSp396.wav	SoundEs	отметка, знак
+inteligente		dicSp2131.wav	SoundEs	умный
+accidente		dicSp2384.wav	SoundEs	происшествие
+harina			dicSp7181.wav	SoundEs	мука
+matar			dicSp3146.wav	SoundEs	убивать, умерщвлять
+colgar			dicSp4315.wav	SoundEs	вешать
+llamada			dicSp1029.wav	SoundEs	звонок, вызов
+grave			dicSp1448.wav	SoundEs	серьёзный, важный, значительный
+exagerado		dicSp7380.wav	SoundEs	преувеличенный
+nada			dicSp434.wav	SoundEs	совсем, вовсе, ничуть
+cerca			dicSp511.wav	SoundEs	близко, вблизи, недалеко
+vestir			dicSp5694.wav	SoundEs	одевать, наряжать
+importar		dicSp3195.wav	SoundEs	иметь значение, быть важным
+tirarse					бросаться, кидаться, прыгать
+justo			dicSp1264.wav	SoundEs	как раз
+a tiempo				вовремя
+ahogar					задушить, удушить
+caerse					упасть
+tragar			dicSp9239.wav	SoundEs	глотать, проглатывать
+vendedor		dicSp2192.wav	SoundEs	продавец, торговец
+sacar			dicSp1660.wav	SoundEs	извлекать, вынимать, вытаскивать, выкладывать
+brazo			dicSp3399.wav	SoundEs	рука (от плеча до локтя или от локтя до кисти)
+pedir			dicSp1484.wav	SoundEs	просить
+médico			dicSp956.wav	SoundEs	врач
+acercar			dicSp5026.wav	SoundEs	приближать(ся)
+arena			dicSp2294.wav	SoundEs	песок
+tos			dicSp3339.wav	SoundEs	кашель
+sonreír			dicSp8863.wav	SoundEs	улыбаться
+nervioso		dicSp4287.wav	SoundEs	нервный, раздражительный
+marearse				терять сознание (от чего), чувствовать головокружение
+todavía			dicSp689.wav	SoundEs	пока
+informar		dicSp1648.wav	SoundEs	сообщать, информировать, уведомлять
+razón			dicSp611.wav	SoundEs	разум, рассудок, размышление, умозаключение, вывод
+hacia			dicSp269.wav	SoundEs	к, по направлению к
+es que					ведь
+encanto			dicSp3957.wav	SoundEs	очарование
+encantar				заколдовывать, очаровывать, восхищать
+encantado (de conocerle)				очень рад (с вами познакомиться)!
+gusto			dicSp1476.wav	SoundEs	вкус, вкусовое ощущение, удовольствие
+sobre			dicSp04.wav	SoundEs	конверт
+bolsillo		dicSp3277.wav	SoundEs	карман
+enseñar			dicSp3009.wav	SoundEs	показывать, предъявлять
+necesario		dicSp395.wav	SoundEs	необходимый, нужный, потребный
+mafioso					мафиозо
+papel			dicSp500.wav	SoundEs	роль
+aquí			dicSp51.wav	SoundEs	здесь, тут
+allí			dicSp931.wav	SoundEs	там
+ahí			dicSp1087.wav	SoundEs	здесь, тут, там
+planta			dicSp1030.wav	SoundEs	растение
+elegante		dicSp3852.wav	SoundEs	изящный, элегантный
+plano			dicSp1247.wav	SoundEs	план, проект, чертёж
+plan			dicSp290.wav	SoundEs	план, намерение
+policía			dicSp1223.wav	SoundEs	полиция
+actuar			dicSp1559.wav	SoundEs	действовать, делать, поступать
+agente			dicSp1903.wav	SoundEs	агент, посредник
+frase			dicSp1676.wav	SoundEs	фраза
+clásico			dicSp1710.wav	SoundEs	классический
+detener			dicSp3279.wav	SoundEs	останавливать(ся), задерживать(ся)
+detenido		dicSp3103.wav	SoundEs	арестованный
+rodear					окружать, обступать, опоясывать
+suelo			dicSp595.wav	SoundEs	поверхность земли
+solar			dicSp1999.wav	SoundEs	настилать пол
+dios			dicSp1043.wav	SoundEs	бог
+origen			dicSp600.wav	SoundEs	начало, первопричина, источник
+juicio			dicSp1291.wav	SoundEs	рассудок, разум, ум
+graduar					присуждать учёную степень
+cuerpo			dicSp716.wav	SoundEs	тело, туловище, корпус
+género			dicSp1028.wav	SoundEs	род
+humano			dicSp745.wav	SoundEs	человеческий, свойственный человеку
+capa			dicSp2782.wav	SoundEs	плащ
+

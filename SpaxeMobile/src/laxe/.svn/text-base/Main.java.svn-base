@@ -1,0 +1,199 @@
+package laxe;
+
+import java.io.IOException;
+import javax.microedition.lcdui.Display;
+import javax.microedition.lcdui.Font;
+import javax.microedition.lcdui.Graphics;
+import javax.microedition.midlet.MIDlet;
+import javax.microedition.midlet.MIDletStateChangeException;
+//import javax.microedition.lcdui.*;
+
+
+public class Main extends MIDlet implements IMessage
+{
+	public Display disp;
+
+
+        private WordLister2 wordLister2;
+
+	// Canvases
+	private LearnWords learnWords;
+	private WordLister wordLister;
+	private ConjTable conjTable;
+	private Menu menu;
+	private ConjVerb conjVerb;
+	private Logo logo;
+	private Splash splash;
+	
+	public DictManager dict;
+	
+	public Message msgSaveAndExit = Message.msg("Сохранение...", "Вы хотите сохранить текущее состояние обучения?", Message.TYPE_QUESTION, this);
+	public Message msgLoad 		  = Message.msg("Загрузка...", "Вы хотите продолжить обучение?", Message.TYPE_QUESTION, this);
+	
+	public Main() 
+	{	
+	}
+
+	protected void destroyApp(boolean arg0) throws MIDletStateChangeException 
+	{
+		if (dict != null)
+			try 
+			{
+				dict.close();
+				dict = null;
+			} 
+			catch (IOException e) 
+			{
+				e.printStackTrace();
+			}
+			
+		if (learnWords != null) learnWords = null;
+		if (wordLister != null) wordLister = null;
+		if (conjTable != null) conjTable = null;
+		if (menu != null) menu = null;
+		if (conjVerb != null) conjVerb = null;
+		if (logo != null) logo = null;
+		if (splash != null)	splash = null;
+	}
+
+	protected void pauseApp()
+	{
+	}
+
+	protected void startApp() throws MIDletStateChangeException
+	{
+		disp = Display.getDisplay(this);
+
+                wordLister2 = new WordLister2();
+                disp.setCurrent(wordLister2);
+
+
+//		try
+//		{
+//			wordLister = new WordLister(this);
+//			wordLister.init();
+//		}
+//		catch (IOException e)
+//		{
+//			e.printStackTrace();
+//		}
+//
+//		learnWords = new LearnWords(this);
+//		conjTable = new ConjTable(this);
+//		conjVerb = new ConjVerb(this);
+//		menu = new Menu(this);
+//		logo = new Logo(this);
+//		splash = new Splash(this);
+//
+//		this.goLogo();
+		//this.goMenu();
+
+	}
+
+
+	public void goLogo()
+	{
+		disp.setCurrent(logo);
+		logo.show();
+	}
+	
+	public void goSplash()
+	{
+		disp.setCurrent(splash);
+		splash.show();
+	}
+	
+	public void goMenu()
+	{
+		disp.setCurrent(menu);
+	}
+	
+	public void goWordLister()
+	{
+		wordLister.reset();
+		disp.setCurrent(wordLister);
+	}
+	
+	public void goConjTable()
+	{
+		disp.setCurrent(conjTable);
+	}
+	
+	public void goConjVerb(DictArticle art)
+	{
+		conjVerb.setWord(art);
+		disp.setCurrent(conjVerb);
+	}
+	
+	public void goLearnWords()
+	{
+		if (learnWords.init())
+			disp.setCurrent(learnWords);
+	}
+	
+	public void showMsg(Message msg)
+	{
+		disp.setCurrent(msg);
+	}
+	
+	/*
+	 * Draws a string on the screen aligned on the width
+	 */
+	public void drawStringAligned(Graphics gr, String s, int yc)
+	{
+		int gapw = 0;
+		int gaph = 0;
+		int margin = 10;
+		Font font = gr.getFont();
+		int fonth = font.getHeight();
+		
+		int len = font.stringWidth(s);
+		int numRows = len / (menu.getWidth() - 2*margin) + 1;
+		int y = yc - (numRows*fonth + (numRows - 1)*gaph) / 2;
+		
+		int row = 1;
+		for (int i = 0; i < s.length(); i++)
+		{
+			int x = margin;
+			
+			if (row == numRows)
+			{
+				gr.drawString(s.substring(i), menu.getWidth() / 2, y, Graphics.TOP | Graphics.HCENTER);
+				break;
+			}
+			
+			while (x < menu.getWidth() && i < s.length())
+			{
+				char c = s.charAt(i);
+				gr.drawChar(c, x, y, Graphics.LEFT | Graphics.TOP);
+				x += (font.charWidth(c) + gapw);
+				if (x + font.charWidth(s.charAt(i + 1)) > menu.getWidth() - margin) break;
+				i++;
+			}
+			
+			y += (fonth + gaph);
+			row++;
+		}
+	}
+
+	public void msgAction(int arg, Message sender) 
+	{
+		if (sender.equals(msgSaveAndExit))
+		{
+			if (arg == Message.M_YES) learnWords.save();
+			this.notifyDestroyed();
+		}
+		
+		if (sender.equals(msgLoad))
+		{
+			if (arg == Message.M_NO) learnWords.newGame();
+			disp.setCurrent(learnWords);
+		}
+	}
+	
+	public void exit()
+	{
+		if (!learnWords.isFinished()) showMsg(msgSaveAndExit); 
+		else this.notifyDestroyed();
+	}
+}

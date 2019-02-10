@@ -1,0 +1,102 @@
+package laxe;
+
+import javax.microedition.lcdui.Graphics;
+import laxe.ui.Form;
+import laxe.ui.ListBox;
+
+
+public class WordLister2 extends Form
+{
+    public WordLister2()
+    {
+        //super();
+
+        this.caption = "WordLister";
+        this.btnLeft = "фильтр";
+        this.btnRight = "назад";
+        this.btnCenter = "вид";
+        this.bgColor = Props.lightColor;
+        this.captionColor = Props.darkColor;
+        //this.bgColor = 0;
+        //this.captionColor = 0x00FF00;
+
+
+        ListBox lb = new ListBox();
+        this.addControl(lb);
+        lb.setLeft(10);
+        lb.setTop(20);
+        lb.setWidth(150);
+        lb.setHeight(250);
+        lb.bgColor = 0xFFFFFF;
+
+        lb.addItem("item 1");
+        lb.addItem("item 2");
+        lb.addItem("item 3");
+        lb.addItem("item 4");
+        lb.addItem("itlemgj 5");
+        lb.addItem("itemgj 6");
+        lb.addItem("item 7");
+        lb.addItem("item 1");
+        lb.addItem("item 2");
+        lb.addItem("item 3");
+        lb.addItem("item 4");
+        lb.addItem("itlemgj 5");
+        lb.addItem("itemgj 6");
+        lb.addItem("item 7");
+        lb.addItem("item 1");
+//        lb.addItem("item 2");
+//        lb.addItem("item 3");
+//        lb.addItem("item 4");
+//        lb.addItem("itlemgj 5");
+//        lb.addItem("itemgj 6");
+//        lb.addItem("item 7");
+//        lb.addItem("item 8");
+//        lb.addItem("item 9");
+//        lb.addItem("item 10");
+//        lb.addItem("item 1");
+//        lb.addItem("item 2");
+//        lb.addItem("item 3");
+//        lb.addItem("item 4");
+//        lb.addItem("itlemgj 5");
+//        lb.addItem("itemgj 6");
+//        lb.addItem("item 7");
+//        lb.addItem("item 1");
+//        lb.addItem("item 2");
+//        lb.addItem("item 3");
+//        lb.addItem("item 4");
+//        lb.addItem("itlemgj 5");
+//        lb.addItem("itemgj 6");
+//        lb.addItem("item 7");
+//        lb.addItem("item 1");
+//        lb.addItem("item 2");
+//        lb.addItem("item 3");
+//        lb.addItem("item 4");
+//        lb.addItem("itlemgj 5");
+//        lb.addItem("itemgj 6");
+//        lb.addItem("item 7");
+//        lb.addItem("item 8");
+//        lb.addItem("item 9");
+//        lb.addItem("item 10");
+    }
+
+
+//    protected void paint(Graphics g)
+//    {
+//        super.paint(g);
+//    }
+
+
+    protected void btnRightPressed()
+    {
+    }
+
+
+    protected void btnLeftPressed()
+    {
+    }
+
+
+    protected void btnCenterPressed()
+    {
+    }
+}

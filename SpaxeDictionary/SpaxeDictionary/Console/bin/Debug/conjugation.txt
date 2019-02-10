@@ -1,0 +1,160 @@
+Presente
+
+estoy
+estás
+está
+estamos
+estáis
+están
+
+
+Pretérito Indefinido
+
+estuve
+estuviste
+estuvo
+estuvimos
+estuvisteis
+estuvieron
+
+
+Pretérito Imperfecto
+
+estaba
+estabas
+estaba
+estábamos
+estabais
+estaban
+
+
+Futuro Imperfecto
+
+estaré
+estarás
+estará
+estaremos
+estaréis
+estarán
+
+
+Presente
+
+este
+estes
+este
+estemos
+estéis
+esten
+
+
+Pretérito Imperfecto
+
+esté
+estés
+esté
+estemos
+estéis
+estén
+
+
+Futuro Imperfecto
+
+estare
+estares
+estare
+estáremos
+estareis
+estaren
+
+
+Imperfecto
+
+estaría
+estarías
+estaría
+estaríamos
+estaríais
+estarían
+
+
+Pretérito Perfecto
+
+he estado
+has estado
+ha estado
+hemos estado
+habéis estado
+han estado
+
+
+Pretérito Anterior
+
+hube estado
+hubiste estado
+hubo estado
+hubimos estado
+hubisteis estado
+hubieron estado
+
+
+Pretérito Pluscuamperfecto
+
+había estado
+habías estado
+había estado
+habíamos estado
+habíais estado
+habían estado
+
+
+Futuro Perfecto
+
+habré estado
+habrás estado
+habrá estado
+habremos estado
+habréis estado
+habrán estado
+
+
+Pretérito Perfecto
+
+haya estado
+hayas estado
+haya estado
+hayamos estado
+hayáis estado
+hayan estado
+
+
+Pretérito Pluscuamperfecto
+
+hubiera estado
+hubieras estado
+hubiera estado
+hubiéramos estado
+hubierais estado
+hubieran estado
+
+
+Futuro Perfecto
+
+hubiere estado
+hubieres estado
+hubiere estado
+hubiéremos estado
+hubiereis estado
+hubieren estado
+
+
+Perfecto
+
+habría estado
+habrías estado
+habría estado
+habríamos estado
+habríais estado
+habrían estado
+
+

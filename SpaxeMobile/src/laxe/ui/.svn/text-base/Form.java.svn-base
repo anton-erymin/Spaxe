@@ -1,0 +1,149 @@
+package laxe.ui;
+
+import javax.microedition.lcdui.Canvas;
+import javax.microedition.lcdui.Font;
+import javax.microedition.lcdui.Graphics;
+import java.util.Vector;
+
+
+public abstract class Form extends Canvas
+{
+    // Ширина
+    private int width;
+    // Высота
+    private int height;
+    // Цвет фона и заголовка
+    public int bgColor;
+    public int captionColor;
+    // Статус заголовка
+    public boolean captionVisible;
+    // Текст заголовка
+    public String caption;
+    // Текст кнопки справа
+    public String btnRight;
+    // Текст кнопки слева
+    public String btnLeft;
+    // Текст кнопки по центру
+    public String btnCenter;
+    // Шрифт
+    public Font font;
+
+    private Vector controls;
+
+
+    public Form()
+    {
+        width = this.getWidth();
+        height = this.getHeight();
+        
+        // По умолчанию цвет фона белый
+        bgColor = 0xFFFFFF;
+        // Цвет фона заголовка черный
+        captionColor = 0;
+        // Заголовок виден
+        captionVisible = true;
+        caption = "";
+        btnRight = "";
+        btnLeft = "";
+        btnCenter = "";
+
+        font = Font.getFont(Font.FACE_SYSTEM, Font.STYLE_PLAIN, Font.SIZE_SMALL);
+
+        controls = new Vector();
+
+        this.setFullScreenMode(true);
+    }
+
+
+    public void addControl(Control ctrl)
+    {
+        ctrl.setForm(this);
+        controls.addElement(ctrl);
+    }
+
+
+    protected void paint(Graphics g)
+    {
+        // Заливаем фон
+        g.setColor(bgColor);
+        g.fillRect(0, 0, width, height);
+        // Рисуем рамку
+        g.setColor(captionColor);
+        g.drawRect(0, 0, width - 1, height - 1);
+
+        g.setFont(font);
+
+        // Рисуем заголовок если виден
+        if (captionVisible)
+        {
+            g.setColor(captionColor);
+            g.fillRect(0, 0, width, font.getHeight());
+            g.setColor(bgColor);
+            g.drawString(caption, 0, 0, Graphics.LEFT | Graphics.TOP);
+        }
+
+        // Если есть кнопки, рисуем их
+        if (!btnCenter.equals("") || !btnLeft.equals("") || !btnRight.equals(""))
+        {
+            g.setColor(captionColor);
+            g.fillRect(0, height - font.getHeight(), width, font.getHeight());
+
+            g.setColor(bgColor);
+            if (!btnLeft.equals(""))
+               g.drawString(btnLeft, 0, height, Graphics.LEFT | Graphics.BOTTOM);
+            if (!btnRight.equals(""))
+               g.drawString(btnRight, width, height, Graphics.RIGHT | Graphics.BOTTOM);
+            if (!btnCenter.equals(""))
+               g.drawString(btnCenter, width / 2, height, Graphics.HCENTER | Graphics.BOTTOM);
+        }
+
+        // Рисуем элементы управления на форме
+        for (int i = 0; i < controls.size(); i++)
+            ((Control)controls.elementAt(i)).paint(g);
+    }
+
+
+    protected void keyPressed(int keyCode)
+    {
+	int key = Keys.translateKey(keyCode);
+        
+	switch (key)
+	{
+            case Keys.KEYLSOFT:
+            {
+                if (!btnLeft.equals(""))
+                    btnLeftPressed();
+                break;
+            }
+            case Keys.KEYRSOFT:
+            {
+                if (!btnRight.equals(""))
+                    btnRightPressed();
+                break;
+            }
+            case Keys.KEYFIRE:
+            {
+                if (!btnLeft.equals(""))
+                    btnCenterPressed();
+                break;
+            }
+        }
+
+        for (int i = 0; i < controls.size(); i++)
+            ((Control)controls.elementAt(i)).keyPressed(key);
+    }
+
+
+    protected void keyReleased(int keyCode)
+    {
+	int key = Keys.translateKey(keyCode);
+
+        for (int i = 0; i < controls.size(); i++)
+            ((Control)controls.elementAt(i)).keyReleased(key);
+    }
+    
+
+    protected abstract void btnRightPressed();
+    protected abstract void btnLeftPressed();
+    protected abstract void btnCenterPressed();
+}

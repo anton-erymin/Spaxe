@@ -1,0 +1,87 @@
+package laxe.ui;
+
+import javax.microedition.lcdui.Font;
+import javax.microedition.lcdui.Graphics;
+
+
+public abstract class Control
+{
+    // Форма - родитель
+    protected Form form;
+    // Координаты
+    public int left;
+    public int right;
+    public int top;
+    public int bottom;
+    // Ширина
+    public int width;
+    // Высота
+    public int height;
+    // Цвет фона и границы
+    public int bgColor;
+    public int borderColor;
+    public Font font;
+
+
+    public Control()
+    {
+        left = 0;
+        top = 0;
+        width = 0;
+        height = 0;
+        right = left + width;
+        bottom = top + height;
+        bgColor = 0xFFFFFF;
+        borderColor = 0;
+    }
+
+
+    public void setForm(Form form)
+    {
+        this.form = form;
+        bgColor = form.bgColor;
+        borderColor = form.captionColor;
+        font = form.font;
+    }
+
+
+    public void setLeft(int left)
+    {
+        this.left = left;
+        right = left + width;
+    }
+
+
+    public void setTop(int top)
+    {
+        this.top = top;
+        bottom = top + height;
+    }
+
+
+    public void setWidth(int width)
+    {
+        this.width = width;
+        right = left + width;
+    }
+
+
+    protected void setHeight(int height)
+    {
+        this.height = height;
+        bottom = top + height;
+    }
+
+
+    protected void paint(Graphics g)
+    {
+        g.setColor(bgColor);
+        g.fillRect(left, top, width, height);
+        g.setColor(borderColor);
+        g.drawRect(left, top, width, height);
+    }
+
+
+    protected abstract void keyPressed(int key);
+    protected abstract void keyReleased(int key);
+}
